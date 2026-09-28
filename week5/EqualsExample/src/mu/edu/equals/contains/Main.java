@@ -33,6 +33,26 @@ public class Main {
 			System.out.println("Not found");
 		}
 		
+		tasks.indexOf(new Task("Study"));
+		tasks.lastIndexOf(new Task("Study"));
+		tasks.remove(new Task("Study"));
+		
+		
+		List<Task> tasks2 = new ArrayList<>();
+
+		tasks2.add(new Task("Study"));
+		tasks2.add(new Task("Exercise"));
+
+		System.out.println(
+		    tasks2.contains(new Task("Study"))
+		); // true
+
+		System.out.println(
+		    tasks2.indexOf(new Task("Exercise"))
+		); // 1
+
+		tasks2.remove(new Task("Study"));
+		
 	}
 
 }
