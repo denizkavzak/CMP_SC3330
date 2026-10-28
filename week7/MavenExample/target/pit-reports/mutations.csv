@@ -1,0 +1,9 @@
+Task.java,edu.mu.maven.example.Task,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,<init>,14,SURVIVED,none
+Task.java,edu.mu.maven.example.Task,org.pitest.mutationtest.engine.gregor.mutators.returns.EmptyObjectReturnValsMutator,getDescription,20,KILLED,"edu.mu.maven.example.TaskTest.[engine:junit-jupiter]/[class:edu.mu.maven.example.TaskTest]/[test-template:testGetDescription(edu.mu.maven.example.Task, java.lang.String)]/[test-template-invocation:#1]"
+Task.java,edu.mu.maven.example.Task,org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator,getTaskId,49,NO_COVERAGE,none
+Task.java,edu.mu.maven.example.Task,org.pitest.mutationtest.engine.gregor.mutators.returns.BooleanFalseReturnValsMutator,isCompleted,30,NO_COVERAGE,none
+Task.java,edu.mu.maven.example.Task,org.pitest.mutationtest.engine.gregor.mutators.returns.BooleanTrueReturnValsMutator,isCompleted,30,NO_COVERAGE,none
+Task.java,edu.mu.maven.example.Task,org.pitest.mutationtest.engine.gregor.mutators.NegateConditionalsMutator,markComplete,35,NO_COVERAGE,none
+Task.java,edu.mu.maven.example.Task,org.pitest.mutationtest.engine.gregor.mutators.returns.BooleanFalseReturnValsMutator,markComplete,39,NO_COVERAGE,none
+Task.java,edu.mu.maven.example.Task,org.pitest.mutationtest.engine.gregor.mutators.returns.BooleanTrueReturnValsMutator,markComplete,36,NO_COVERAGE,none
+Task.java,edu.mu.maven.example.Task,org.pitest.mutationtest.engine.gregor.mutators.returns.EmptyObjectReturnValsMutator,toString,55,SURVIVED,none
